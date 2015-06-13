@@ -1,0 +1,9 @@
+Package: aindex
+Title: Anomalie-Index
+Version: 0.1
+Authors@R: person("Christian", "Zang", email = "christian.zang@wzw.tum.de", role = c("aut", "cre"))
+Description: Calculate Anomaly Index
+Depends: R (>= 3.2.0)
+Imports: dplR
+License: GPL-3
+LazyData: true
