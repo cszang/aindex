@@ -40,7 +40,7 @@ ai <- function(x, ref = NULL) {
         }
 
         out_dplr <- data.frame(out$perc)
-        names(out_dplr) <- paste0(names(x1)[i], "_perc")
+        names(out_dplr) <- paste0(names(x)[i], "_perc")
         rownames(out_dplr) <- out$year
         
         if (i == 1) {
